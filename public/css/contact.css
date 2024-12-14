@@ -1,0 +1,142 @@
+/* Global Styles */
+body,
+html {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f4f7fc;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #0859aa;
+}
+
+.navbar-brand img {
+    width: 40px;
+}
+
+.navbar-nav .nav-link {
+    color: #ecf0f1;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #3498db;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    margin-top: 50px;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px 8px 0 0;
+    padding: 15px;
+}
+
+.card-body {
+    padding: 30px;
+}
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+footer.blockquote-footer {
+    font-size: 16px;
+    color: #95a5a6;
+}
+
+/* Footer Styles */
+.footer-wrap {
+    background-color: #0859aa;
+    padding: 40px;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer-section {
+    width: 22%;
+    padding: 10px;
+}
+
+.footer-section h1 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ecf0f1;
+}
+
+.footer-section a {
+    color: #bdc3c7;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-section a:hover {
+    color: #3498db;
+}
+
+.footer-bottom {
+    margin-top: 300px;
+    background-color: #0859aa;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer-bottom a {
+    color: #ecf0f1;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footer-bottom {
+        margin-top: 310px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.logout {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+}
+
+.logout a {
+    color: white;
+    text-decoration: none;
+}
+
+.logout a:hover {
+    color: #3498db;
+}
